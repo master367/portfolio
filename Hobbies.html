@@ -19,6 +19,19 @@
             hr{
                 border: 2px solid black;
             }
+            #buttons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+                
+            }
+            button{
+                margin: 5px; 
+                border-radius: 2px; 
+                padding: 15px 32px; 
+                font-size: 32px; 
+            }
         </style>
     </head>
     <body>
@@ -34,8 +47,12 @@
             <hr>
             If you want, please add me as a friend!
             <a href="https://steamcommunity.com/id/master367/" >MY STEAM</a>
+            <hr>
         </div>
-        
+        <div id = "buttons" >
+            <button onclick="window.location.href = 'Home.html';"> Home </button> 
+            <button onclick="window.location.href = 'contactMe.html';"> Contacts </button>
+        </div>
     </body>
-    
+
 </html>
